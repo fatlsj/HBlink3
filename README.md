@@ -26,7 +26,7 @@ I do not provide support for this software. If future updates in operating syste
 
 apt update
 
-apt upgrade
+apt upgrade -y
 
 apt dist-upgrade
 
@@ -36,9 +36,9 @@ apt autoclean
 
 # install hblink
 
-apt install git
+apt install git -y
 
-apt install python3-distutils
+apt install python3-distutils -y
 
 cd /opt/
 
@@ -46,11 +46,11 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 python3 get-pip.py
 
-apt install python3-twisted
+apt install python3-twisted -y
 
-apt install python3-bitarray
+apt install python3-bitarray -y
 
-apt install python3-dev
+apt install python3-dev -y
 
 git clone https://github.com/lz5pn/HBlink3
 
