@@ -33,12 +33,12 @@ configuration file.
 '''
 
 BRIDGES = {
-    'HBLink-Peer-TG11': [
-            {'SYSTEM': 'MASTER-1',            'TS': 2, 'TGID': 11,       'ACTIVE': True,  'TIMEOUT': 30, 'TO_TYPE':'OFF',  'ON': [11],       'OFF': [55],    'RESET': []},
+    'HBLink-Peer-TG9': [
+            {'SYSTEM': 'MASTER-1',            'TS': 1, 'TGID': 9,       'ACTIVE': True,  'TIMEOUT': 2, 'TO_TYPE':'NONE',  'ON': [9],       'OFF': [],    'RESET': []},
         ],
     'HBLink-EchoTest-TG9999': [
-            {'SYSTEM': 'ECHOTEST',            'TS': 2, 'TGID': 9999,     'ACTIVE': True,  'TIMEOUT': 0,  'TO_TYPE':'NONE', 'ON': [],         'OFF': [],      'RESET': []},
-            {'SYSTEM': 'MASTER-1',            'TS': 2, 'TGID': 9999,     'ACTIVE': True,  'TIMEOUT': 0,  'TO_TYPE':'NONE', 'ON': [],         'OFF': [],      'RESET': []},
+            {'SYSTEM': 'ECHOTEST',            'TS': 2, 'TGID': 9999,     'ACTIVE': True,  'TIMEOUT': 2,  'TO_TYPE':'NONE', 'ON': [9999],         'OFF': [],      'RESET': []},
+            {'SYSTEM': 'MASTER-1',            'TS': 2, 'TGID': 9999,     'ACTIVE': True,  'TIMEOUT': 2,  'TO_TYPE':'NONE', 'ON': [9999],         'OFF': [],      'RESET': []},
         ]
 }
 
