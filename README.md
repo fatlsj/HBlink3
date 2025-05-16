@@ -178,7 +178,7 @@ systemctl start hblink
 
 systemctl status hblink
 
-# Install web monitor for HBLink.
+# Install web monitor for HBLink.(HBmon使用HBmonv2版本的代码，见另一个repo)
 
 cd /opt/HBmonitor
 
