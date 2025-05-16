@@ -70,9 +70,9 @@ chmod +x install.sh
 
 ./install.sh
 
-/usr/bin/python3 -m pip install --upgrade pip
-
 下面可能会出现报错，先执行：pip install --ignore-installed bitarray，再执行后续命令
+
+/usr/bin/python3 -m pip install --upgrade pip
 
 pip install --upgrade dmr_utils3
 
