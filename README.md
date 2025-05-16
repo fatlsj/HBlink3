@@ -202,7 +202,21 @@ systemctl status hbmon
 
 # Forward TCP ports 8080 and 9000 in router firewall
 
-wpsd的配置：
+http 80/tcp
+
+https 443/tcp
+
+report 4321/tcp
+
+websocket 9000/udp?/tcp
+
+MMDVM 62030-62031/udp/tcp
+
+OBP 62032-62050/udp/tcp
+
+ssh 22/tcp
+
+# wpsd的配置：
 
 [DMR Network 3]
 
