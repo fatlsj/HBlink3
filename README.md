@@ -216,7 +216,7 @@ OBP 62032-62050/udp/tcp
 
 ssh 22/tcp
 
-# wpsd的配置：
+# wpsd的配置：配置->Advanced->Full Editors->DMR->DMR Gateway
 
 [DMR Network 3]
 
