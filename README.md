@@ -218,6 +218,8 @@ ssh 22/tcp
 
 # wpsd的配置：配置->Advanced->Full Editors->DMR->DMR Gateway
 
+解释说明，9为本地组，9999为鹦鹉模式。wpsd上映射到60009和69999两个组呼TG。在droidstar上，直接呼叫9和9999就行。
+
 [DMR Network 3]
 
 Enabled=1
