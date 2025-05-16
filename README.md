@@ -51,7 +51,9 @@ apt install python3-twisted -y
 apt install python3-bitarray -y
 
 apt install python3-dev -y
+
 git clone https://github.com/fatlsj/HBlink3
+
 #git clone https://github.com/lz5pn/HBlink3
 
 mv /opt/HBlink3/ /opt/backup/
@@ -200,6 +202,29 @@ systemctl status hbmon
 
 # Forward TCP ports 8080 and 9000 in router firewall
 
+wpsd的配置：
+
+[DMR Network 3]
+
+Enabled=1
+
+Name=HBLink
+
+Address=111.222.333.444
+
+Port=62030
+
+TGRewrite=2,69999,2,9999,1
+
+Password="passw0rd"
+
+Location=0
+
+Debug=0
+
+#Id=specific_id
+
+TGRewrite0=1,60009,1,9,1
 
 My HBlink servers: http://kario88.dynamic-dns.net:8184/ and http://lz5pn.freeddns.com:8184/
 
