@@ -51,8 +51,8 @@ apt install python3-twisted -y
 apt install python3-bitarray -y
 
 apt install python3-dev -y
-
-git clone https://github.com/lz5pn/HBlink3
+git clone https://github.com/fatlsj/HBlink3
+#git clone https://github.com/lz5pn/HBlink3
 
 mv /opt/HBlink3/ /opt/backup/
 
